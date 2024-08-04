@@ -36,16 +36,9 @@ button:hover {
 
 .mobile-controls {
     margin-top: 20px;
-}
-
-.control-row {
-    display: flex;
-    justify-content: center;
-    margin: 5px 0;
-}
-
-.control-row:first-child {
-    margin-bottom: 10px;
+    display: flex; /* Flexbox elrendezés */
+    flex-direction: row; /* Gombok sorba rendezése */
+    justify-content: center; /* Középre igazítás */
 }
 
 .control-button {
